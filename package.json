@@ -1,0 +1,29 @@
+{
+    "name": "rsapp-task-template",
+    "version": "1.0.0",
+    "description": "Template for rsapp task",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha test",
+      "postinstall": "node postinstall.js"
+    },
+    "engines": {
+      "node": "<=12"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Chegarena/rsapp-task-template.git"
+    },
+    "author": "Valery@bandarenka.tel",
+    "license": "LICENSE",
+    "bugs": {
+      "url": "https://github.com/Chegarena/rsapp-task-template/issues"
+    },
+    "homepage": "https://github.com/Chegarena/rsapp-task-template#readme",
+    "dependencies": {
+      "chai": "^4.2.0",
+      "colors": "^1.4.0",
+      "mocha": "^6.2.2",
+      "semver": "^6.3.0"
+    }
+  }
